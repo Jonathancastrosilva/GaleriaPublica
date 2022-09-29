@@ -1,4 +1,4 @@
-package castro.jonathan.galeriapblica;
+package castro.jonathan.galeriapublica;
 
 import android.content.Context;
 

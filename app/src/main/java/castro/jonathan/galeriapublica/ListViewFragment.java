@@ -1,4 +1,4 @@
-package castro.jonathan.galeriapblica;
+package castro.jonathan.galeriapublica;
 
 import android.os.Bundle;
 
@@ -7,8 +7,6 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import castro.jonathan.galeriapublica.R;
 
 /**
  * A simple {@link Fragment} subclass.

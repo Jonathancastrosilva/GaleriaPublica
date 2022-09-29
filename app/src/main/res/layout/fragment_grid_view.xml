@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="castro.jonathan.galeriapblica.GridViewFragment">
+    tools:context="castro.jonathan.galeriapublica.GridViewFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
