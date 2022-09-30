@@ -3,11 +3,14 @@ package castro.jonathan.galeriapublica;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.Manifest;
+import android.content.DialogInterface;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -21,6 +24,8 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
+    static int RESULT_REQUEST_PERMISSION = 2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         checkForPermissions(permissions);
     }
 
-    private void checkForPermissions(List<String> permissions) {
+    private void checkForPermissions(@NonNull List<String> permissions) {
         List<String> permissionsNotGranted = new ArrayList<>();
         for(String permission : permissions) {
             if( !hasPermission(permission)) {

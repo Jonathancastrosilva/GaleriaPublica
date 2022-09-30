@@ -2,7 +2,7 @@ package castro.jonathan.galeriapublica;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.paging.ListeningPagingSource;
+import androidx.paging.ListenableFuturePagingSource;
 import androidx.paging.PagingSource;
 import androidx.paging.PagingState;
 

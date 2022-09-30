@@ -10,8 +10,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 
-import com.squareup.okhttp.internal.Util;
-
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Date;
