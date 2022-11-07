@@ -5,6 +5,7 @@
     tools:context="castro.jonathan.galeriapublica.GridViewFragment">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGrid"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </FrameLayout>

@@ -42,8 +42,7 @@ public class ListAdapter extends PagingDataAdapter<ImageData, MyViewHolder> {
         TextView tvSize = holder.itemView.findViewById(R.id.tvSize);
         tvSize.setText("Tamanho: " + String.valueOf(imageData.size));
 
-        Bitmap thumb;
-        thumb = imageData.thumb;
+        Bitmap thumb = imageData.thumb;
         ImageView imageView = holder.itemView.findViewById(R.id.imThumb);
         imageView.setImageBitmap(thumb);
     }
